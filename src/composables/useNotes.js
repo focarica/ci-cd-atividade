@@ -42,7 +42,7 @@ export function useNotes() {
 
     notes.value = [note, ...notes.value]
     persist(notes.value)
-    return note
+    return "bug"
   }
 
   function removeNote(id) {
