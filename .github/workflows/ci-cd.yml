@@ -45,7 +45,7 @@ jobs:
       - name: Baixar build do projeto
         uses: actions/download-artifact@v8
         with:
-          name: production-files
+          name: build-projeto
           path: ./dist
 
       - name: Deploy no GitHub Pages
