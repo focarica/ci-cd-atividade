@@ -13,7 +13,7 @@ function handleAdd({ title, content }) {
 <template>
   <main class="app">
     <header class="app__header">
-      <h1>📝 Bloco de Notas</h1>
+      <h1>📝 Bloco de Notas do Artur</h1>
       <p>Suas notas ficam salvas apenas neste navegador (localStorage). Não há banco de dados.</p>
     </header>
 
